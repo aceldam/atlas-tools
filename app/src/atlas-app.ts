@@ -1,0 +1,1 @@
+﻿new AtlasApp.MenuTools().run();
