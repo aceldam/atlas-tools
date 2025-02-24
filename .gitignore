@@ -1,2 +1,5 @@
 
 node_modules/
+/app/dist
+/app/src/*.js
+/.vs/atlas-tools/CopilotIndices/17.12.53.23981

@@ -1,15 +1,12 @@
 {
-    "manifest_version": 2,
-
+    "manifest_version": 3,
     "name": "Atlas tools",
     "description": "",
-    "version": "0.1",
-    
-
-    "permissions": [
+    "version": "0.2",
+    "host_permissions": [
         "https://svampe.databasen.org/"
     ],
-    "browser_action": {
+    "action": {
         "default_icon": "img/icon.png",
         "default_popup": "atlas-tools.html"
     },
@@ -20,8 +17,8 @@
             ],
             "js": [
                 "lib/jquery-2.2.3.min.js",
-                "src/AtlasMenuTools.js",
-                "src/atlas-app.js"
+                "dist/AtlasMenuTools.js",
+                "dist/atlas-app.js"
             ],
             "run_at": "document_idle"
         }
